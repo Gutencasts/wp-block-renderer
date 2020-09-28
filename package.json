@@ -1,0 +1,33 @@
+{
+  "name": "block-renderer",
+  "module": "dist/index.esm.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "version": "0.1.0",
+  "description": "Drop in renderer for reading a tree of Blocks from WordPress's parse_blocks",
+  "repository": "https://github.com/Gutencasts/block-renderer",
+  "author": "Michael Kantor",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "dependencies": {
+    "interweave": "^12.5.0"
+  },
+  "devDependencies": {
+    "tsdx": "^0.14.0"
+  }
+}
