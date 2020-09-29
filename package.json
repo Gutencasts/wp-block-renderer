@@ -5,7 +5,7 @@
   "typings": "dist/index.d.ts",
   "version": "0.1.0",
   "description": "Drop in renderer for reading a tree of Blocks from WordPress's parse_blocks",
-  "repository": "https://github.com/Gutencasts/block-renderer",
+  "repository": "https://github.com/Gutencasts/wp-block-renderer",
   "author": "Michael Kantor",
   "license": "MIT",
   "private": false,
