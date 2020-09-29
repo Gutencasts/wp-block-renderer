@@ -1,5 +1,11 @@
-import React from 'react';
-import Interweave from 'interweave';
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var React = _interopDefault(require('react'));
+var Interweave = _interopDefault(require('interweave'));
 
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null) return {};
@@ -81,6 +87,6 @@ var BlockRenderer = function BlockRenderer(_ref) {
   }, innerBlocks);
 };
 
-export default BlockRenderer;
-export { BlockRenderer };
-//# sourceMappingURL=block-renderer.esm.js.map
+exports.BlockRenderer = BlockRenderer;
+exports.default = BlockRenderer;
+//# sourceMappingURL=wp-block-renderer.cjs.development.js.map

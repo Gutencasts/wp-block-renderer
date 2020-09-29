@@ -1,11 +1,5 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-var React = _interopDefault(require('react'));
-var Interweave = _interopDefault(require('interweave'));
+import React from 'react';
+import Interweave from 'interweave';
 
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null) return {};
@@ -87,6 +81,6 @@ var BlockRenderer = function BlockRenderer(_ref) {
   }, innerBlocks);
 };
 
-exports.BlockRenderer = BlockRenderer;
-exports.default = BlockRenderer;
-//# sourceMappingURL=block-renderer.cjs.development.js.map
+export default BlockRenderer;
+export { BlockRenderer };
+//# sourceMappingURL=wp-block-renderer.esm.js.map
