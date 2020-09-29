@@ -1,5 +1,5 @@
 {
-  "name": "block-renderer",
+  "name": "@gutencasts/block-renderer",
   "module": "dist/index.esm.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
