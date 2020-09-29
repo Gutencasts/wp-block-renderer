@@ -48,3 +48,9 @@ return <>
 |---|:---|:---|:---|
 | type  | Record<string, string>  | Array of blocks  | Array of strings  |
 | description  | Mapping of all the blocks available to the renderer. When a match is found the renderer will use this component  | The array of blocks that WordPress provides when using `parse_blocks`   | An array of block names, that when provided will be given to the block. Useful for things like Table of Contents, or dynamic tables.        |
+
+
+#### TODO
+- [ ] Add unit tests
+- [ ] Provide a way to swap the default HTML parser out (Interweave)
+- [ ] Add more examples
