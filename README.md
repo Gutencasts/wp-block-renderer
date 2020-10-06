@@ -7,7 +7,7 @@ A drop in react component that can be used to tranverse and render a tree of blo
 
 
 #### Usage
-```
+```jsx
 import BlockRenderer, { Fragment } from 'block-renderer';
 
 const blockMap = {
